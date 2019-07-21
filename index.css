@@ -1,0 +1,41 @@
+*{ /* getting rid of default margins and shit */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+    /* gets rid of underlines and bolding */
+}
+nav{
+  wide: 100%;
+  height: 100px;
+  background-color: white;
+}
+body{
+  background-color: #bada55;
+}
+
+ul{}
+ul li{
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+ul li a{
+  font-size: 14px;
+  font-family:'Noto Sans',sans-serif;
+  display:inline-block;
+  font-size:15px;
+  color: #1e1e1e;
+  padding: 0 20px; /* vertical, then horizontal padding */
+  display: block; /* extends button to top and bottom of the line */
+}
+ul li a:hover{
+  color: #d3dce1;
+}
+
+.slab{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 25px;
+  color:#3b3b3b;
+}
